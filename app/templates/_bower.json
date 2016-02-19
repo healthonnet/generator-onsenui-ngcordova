@@ -1,6 +1,8 @@
 {
   "name": "<%= _.camelize(appname) %>",
   "version": "0.0.1",
-  "dependencies": {}
+  "dependencies": {
+    "ngCordova": "^0.1.24-alpha"
+  }
 }
 

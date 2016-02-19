@@ -1,8 +1,14 @@
 (function(){
   'use strict';
-  var module = angular.module('app', ['onsen']);
+  var module = angular.module('app', ['onsen', 'ngCordova']);
 
   module.controller('AppController', function($scope, $data) {
+
+    document.addEventListener("deviceready", function(){
+        //$cordovaPlugin available
+        console.log("deviceready");
+    }, false);
+
     $scope.doSomething = function() {
       setTimeout(function() {
         ons.notification.alert({ message: 'tapped' });

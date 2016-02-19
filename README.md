@@ -1,6 +1,6 @@
 # generator-onsenui-ngcordova 
 
-> A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) [ngCordova](http://phonegap.com) app
+> A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) [ngCordova](http://ngcordova.com) app
 > Based on a Fork of [arvindr21](https://github.com/arvindr21)'s project [generator-onsenui-phonegap](https://github.com/arvindr21/generator-onsenui-phonegap) and adapted to add ngCordova.
 
 ## Getting Started

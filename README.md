@@ -1,4 +1,4 @@
-# generator-onsenui-phonegap [![Build Status](https://secure.travis-ci.org/arvindr21/generator-onsenui-phonegap.png?branch=master)](https://travis-ci.org/arvindr21/generator-onsenui-phonegap)
+# generator-onsenui-ngcordova 
 
 > A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) [ngCordova](http://phonegap.com) app
 > Based on a Fork of [arvindr21](https://github.com/arvindr21)'s project [generator-onsenui-phonegap](https://github.com/arvindr21/generator-onsenui-phonegap) and adapted to add ngCordova.
@@ -34,6 +34,9 @@ Finally, initiate the generator:
 ```bash
 $ yo onsenui-ngcordova
 ```
+
+You can select and install all [cordova plugins supported by ngCordova](http://ngcordova.com/docs/plugins/) !
+
 You can pick from one of the 7 available [templates](http://onsenui.io/guide/getting_started.html#template)
 
 * Minimum

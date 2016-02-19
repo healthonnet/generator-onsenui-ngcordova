@@ -1,15 +1,14 @@
 {
-  "name": "generator-onsenui-phonegap",
-  "version": "0.1.0",
+  "name": "generator-onsenui-ngcordova",
+  "version": "0.1.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "arvindr21/generator-onsenui-phonegap",
-  "author": {
-    "name": "Arvind Ravulavaru",
-    "email": "",
-    "url": "https://github.com/arvindr21"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrion/generator-onsenui-ngcordova.git"
   },
+  "author": "Cedric FROSSARD <adrion.dev@gmail.com> (https://github.com/Adrion)",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -21,6 +20,7 @@
   ],
   "keywords": [
     "yeoman-generator",
+    "ngcordova",
     "onsenui",
     "phonegap",
     "cordova"
@@ -35,5 +35,12 @@
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/adrion/generator-onsenui-ngcordova/issues"
+  },
+  "homepage": "https://github.com/adrion/generator-onsenui-ngcordova#readme",
+  "directories": {
+    "test": "test"
   }
 }

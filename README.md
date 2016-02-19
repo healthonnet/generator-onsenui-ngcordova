@@ -1,7 +1,7 @@
 # generator-onsenui-phonegap [![Build Status](https://secure.travis-ci.org/arvindr21/generator-onsenui-phonegap.png?branch=master)](https://travis-ci.org/arvindr21/generator-onsenui-phonegap)
 
-> A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) [PhongeGap](http://phonegap.com) app
-
+> A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) [ngCordova](http://phonegap.com) app
+> Based on a Fork of [arvindr21](https://github.com/arvindr21)'s project [generator-onsenui-phonegap](https://github.com/arvindr21/generator-onsenui-phonegap) and adapted to add ngCordova.
 
 ## Getting Started
 
@@ -23,16 +23,16 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-onsenui-phonegap from npm, run:
+To install generator-onsenui-ngcordova from npm, run:
 
 ```bash
-$ npm install -g generator-onsenui-phonegap
+$ npm install -g generator-onsenui-ngcordova
 ```
 
 Finally, initiate the generator:
 
 ```bash
-$ yo onsenui-phonegap
+$ yo onsenui-ngcordova
 ```
 You can pick from one of the 7 available [templates](http://onsenui.io/guide/getting_started.html#template)
 
@@ -44,11 +44,11 @@ You can pick from one of the 7 available [templates](http://onsenui.io/guide/get
 * Split View
 * Split View & Navigator
 
-Once you select a template, Yeoman will scaffold an `onsenui-phonegap` app for you.
+Once you select a template, Yeoman will scaffold an `onsenui-ngcordova` app for you.
 
 ### Run the App
 
-To run the Onsenui Phonegap app in your browser, execute
+To run the Onsenui ngCordova app in your browser, execute
 
 ```bash
 $ grunt
@@ -57,10 +57,6 @@ $ grunt
 This will start a server at port `1881`. Navigate to `http://localhost:1881` to see the app running.
 
 _Note: When you open the browser, you will find `cordova.js` as a 404 resource. This will be resolved, when you issue a PhoneGap build._
-
-### Run on an Emulator
-
-I have written a few blog posts on how to setup PhoneGap/Cordova, integrate with Onsenui and issue a Phonegap Build to create a native installer. You can start link diving from : [Onsen UI and PhoneGap – Getting Started](http://thejackalofjavascript.com/onsen-ui-and-phonegap-getting-started/)
 
 ### TODO
 * [ ] Grunt task - lint js/css

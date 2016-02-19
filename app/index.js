@@ -80,7 +80,7 @@ var OnsenuiPhonegapGenerator = yeoman.generators.Base.extend({
               value: 'https://github.com/katzer/cordova-plugin-badge.git'
             },{
               name: '$cordovaBackgroundGeolocation',
-              value: 'https://github.com/christocracy/cordova-plugin-background-geolocation.git'
+              value: 'https://github.com/transistorsoft/cordova-background-geolocation-lt.git'
             },{
               name: '$cordovaBatteryStatus',
               value: 'cordova-plugin-battery-status'
@@ -143,7 +143,7 @@ var OnsenuiPhonegapGenerator = yeoman.generators.Base.extend({
               value: 'https://github.com/danwilson/google-analytics-plugin.git'
             },{
               name: '$cordovaBeacon',
-              value: 'com.unarin.cordova.beacon'
+              value: 'https://github.com/petermetz/cordova-plugin-ibeacon.git'
             },{
               name: '$cordovaImagePicker',
               value: 'https://github.com/wymsee/cordova-imagePicker.git'

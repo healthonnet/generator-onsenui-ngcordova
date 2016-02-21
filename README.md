@@ -41,11 +41,9 @@ You can pick from one of the 7 available [templates](http://onsenui.io/guide/get
 
 * Minimum
 * Sliding Menu
-* Sliding Menu & Navigator
 * Tab bar
 * Master-Detail
 * Split View
-* Split View & Navigator
 
 Once you select a template, Yeoman will scaffold an `onsenui-ngcordova` app for you.
 

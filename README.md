@@ -60,6 +60,7 @@ This will start a server at port `1881`. Navigate to `http://localhost:1881` to 
 _Note: When you open the browser, you will find `cordova.js` as a 404 resource. This will be resolved, when you issue a PhoneGap build._
 
 ### TODO
+* [ ] Update PhoneGap template or create cordova 6+ project.
 * [ ] Grunt task - lint js/css
 * [ ] Grunt task - push the code to Github 
 * [ ] Grunt task - build generation

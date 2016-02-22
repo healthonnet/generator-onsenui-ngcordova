@@ -3,10 +3,8 @@ var util = require('util');
 var path = require('path');
 var yeoman = require('yeoman-generator');
 var yosay = require('yosay');
-var chalk = require('chalk');
 
-
-var OnsenuiPhonegapGenerator = yeoman.generators.Base.extend({
+var OnsenuiNgCordovaGenerator = yeoman.generators.Base.extend({
     init: function() {
         this.pkg = require('../package.json');
 
@@ -273,4 +271,4 @@ var OnsenuiPhonegapGenerator = yeoman.generators.Base.extend({
     }
 });
 
-module.exports = OnsenuiPhonegapGenerator;
+module.exports = OnsenuiNgCordovaGenerator;

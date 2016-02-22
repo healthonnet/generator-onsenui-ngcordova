@@ -37,7 +37,7 @@ $ yo onsenui-ngcordova
 
 You can select and install all [cordova plugins supported by ngCordova](http://ngcordova.com/docs/plugins/) !
 
-You can pick from one of the 7 available [templates](http://onsenui.io/guide/getting_started.html#template)
+You can pick from one of the 5 available [templates](http://onsenui.io/guide/getting_started.html#template)
 
 * Minimum
 * Sliding Menu

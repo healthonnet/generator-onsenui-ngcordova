@@ -61,8 +61,8 @@ _Note: When you open the browser, you will find `cordova.js` as a 404 resource. 
 
 ### TODO
 * [ ] Grunt task - lint js/css
-* [ ] Grunt task - push the code to Github 
 * [ ] Grunt task - build generation
+* [ ] Generate updated cordova (6+) project 
 
 ### Getting To Know Yeoman
 

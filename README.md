@@ -1,6 +1,6 @@
 # generator-onsenui-ngcordova 
 
-> A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) [ngCordova](http://ngcordova.com) app
+> A Yeoman Generator to Scaffold an [OnsenUI](http://onsenui.io/) (v.1.3.4) [ngCordova](http://ngcordova.com) app
 > Based on a Fork of [arvindr21](https://github.com/arvindr21)'s project [generator-onsenui-phonegap](https://github.com/arvindr21/generator-onsenui-phonegap) and adapted to add ngCordova.
 
 ## Getting Started
@@ -37,6 +37,7 @@ $ yo onsenui-ngcordova
 
 You can select and install all [cordova plugins supported by ngCordova](http://ngcordova.com/docs/plugins/) !
 
+All templates use OnsenUI v1.3.4 (Jul 1, 2015)
 You can pick from one of the 5 available [templates](http://onsenui.io/guide/getting_started.html#template)
 
 * Minimum
@@ -62,6 +63,7 @@ _Note: When you open the browser, you will find `cordova.js` as a 404 resource. 
 ### TODO
 * [ ] Grunt task - lint js/css
 * [ ] Grunt task - build generation
+* [ ] Update template onsenUI.js to 1.3.15 (Jan 19, 2016)
 * [ ] Generate updated cordova (6+) project 
 
 ### Getting To Know Yeoman

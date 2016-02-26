@@ -67,8 +67,9 @@ You can also edit your build task.
 $ grunt build
 ```
 
-### TODO
-* [ ] Grunt task - lint js/css (improve build task)
+### Checklist
+* [x] Grunt task - lint js/css (improve build task)
+* [ ] Ask for SCSS developpement option (different gruntfile)
 * [x] Grunt task - build generation
 * [ ] Update template onsenUI.js to 1.3.15 (Jan 19, 2016)
 * [ ] Generate updated cordova (6+) project (Ask for platforms)

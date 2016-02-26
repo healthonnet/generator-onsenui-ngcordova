@@ -11,6 +11,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
   grunt.loadNpmTasks('grunt-cordova-ng');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.initConfig({
     connect: {
       options: {
@@ -43,11 +44,14 @@ module.exports = function(grunt) {
         jshintrc: true,
         reporter: require('jshint-stylish')
       }
+    },
+    csslint: {
+      src: ['www/css/**/*.css']
     }
   });
 
   grunt.registerTask('default', ['connect', 'lint', 'watch']);
-  grunt.registerTask('lint',    ['jshint']);
-  grunt.registerTask('build',   ['cordova:package']);
+  grunt.registerTask('lint',    ['jshint', 'csslint']);
+  grunt.registerTask('build',   ['lint','cordova:package']);
 
 };

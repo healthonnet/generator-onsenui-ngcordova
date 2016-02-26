@@ -2,11 +2,11 @@
   'use strict';
   var module = angular.module('app', ['onsen', 'ngCordova']);
 
-  module.controller('AppController', function($scope, $data) {
+  module.controller('AppController', function($scope) {
 
     document.addEventListener("deviceready", function(){
         //$cordovaPlugin available
-        console.log("deviceready");
+        console.log('deviceready');
     }, false);
 
     $scope.doSomething = function() {

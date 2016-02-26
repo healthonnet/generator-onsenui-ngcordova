@@ -60,11 +60,18 @@ This will start a server at port `1881`. Navigate to `http://localhost:1881` to 
 
 _Note: When you open the browser, you will find `cordova.js` as a 404 resource. This will be resolved, when you issue a PhoneGap build._
 
+Now you can use [grunt-cordova-ng](https://github.com/GrayBullet/grunt-cordova-ng) tasks to manage your cordova project.
+You can also edit your build task.
+
+```bash
+$ grunt build
+```
+
 ### TODO
-* [ ] Grunt task - lint js/css
-* [ ] Grunt task - build generation
+* [ ] Grunt task - lint js/css (improve build task)
+* [x] Grunt task - build generation
 * [ ] Update template onsenUI.js to 1.3.15 (Jan 19, 2016)
-* [ ] Generate updated cordova (6+) project 
+* [ ] Generate updated cordova (6+) project (Ask for platforms)
 
 ### Getting To Know Yeoman
 

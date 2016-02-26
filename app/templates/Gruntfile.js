@@ -9,6 +9,8 @@ LIVERELOAD_PORT = 35729,
 
 module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
+    grunt.loadNpmTasks('grunt-cordova-ng');
+
     grunt.initConfig({
         connect: {
             options: {
@@ -37,4 +39,5 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['connect', 'watch']);
-}
+    grunt.registerTask('build',   ['cordova:package']);
+};

@@ -17,10 +17,5 @@
   "strict": true,
   "trailing": true,
   "smarttabs": true,
-  "white": true,
-  "globals": {
-    "angular": true,
-    "ons": true,
-    "document": true
-  }
+  "white": true
 }

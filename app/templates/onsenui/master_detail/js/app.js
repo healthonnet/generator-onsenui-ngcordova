@@ -4,7 +4,7 @@
 
   module.controller('AppController', function($scope) {
 
-    document.addEventListener("deviceready", function(){
+    document.addEventListener('deviceready', function(){
         //$cordovaPlugin available
         console.log('deviceready');
     }, false);
